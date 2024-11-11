@@ -1,0 +1,375 @@
+/* Starting box annimation */
+
+@keyframes boxin {
+    0% {
+        width: 0vw;
+        height: 0vh;
+        transform: translateY(110px);
+    }
+
+    15% {
+        width: 21vw;
+        height: 0vh;
+        transform: translateY(110px);
+    }
+
+    40% {
+        width: 21vw;
+        height: 0vh;
+        transform: translateY(-15px);
+    }
+
+    45%,
+    60% {
+        width: 21vw;
+        height: 0vh;
+        transform: translateY(0px);
+    }
+
+    50% {
+        width: 21vw;
+        height: 0vh;
+        transform: translateY(-10px);
+
+    }
+
+    80% {
+        width: 80vw;
+        height: 0vh;
+    }
+
+    100% {
+        height: 25%;
+    }
+}
+
+/* Hello animation */
+@keyframes Hello {
+    0% {
+        font-size: 4vw;
+        transform: rotate(-30deg);
+        opacity: 50%;
+    }
+
+    75% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+        opacity: 100%;
+    }
+
+}
+
+/* Invisible animation for hello dear gyanvi */
+@keyframes invisible {
+    0% {
+        visibility: hidden;
+    }
+
+    99.99% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: normal;
+    }
+
+
+}
+
+/* Gyanvi name animation */
+@keyframes Gyanvi {
+
+    0%,
+    40% {
+        opacity: 30%;
+        transform: translateY(-66px);
+
+    }
+
+    100% {}
+
+}
+
+/* Outro of starting box */
+
+@keyframes outro {
+    0% {
+        transform: scale(1);
+    }
+
+    99% {
+        /* visibility: normal; */
+    }
+
+    100% {
+        transform: scale(0);
+        /* visibility: hidden; */
+    }
+
+}
+
+
+
+/* slide 2 animations */
+
+
+/* dropin animation */
+@keyframes dropIn {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+        visibility: visible;
+    }
+
+    60% {
+        transform: translateY(20px);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+/* Hide element animation */
+/* note alwys set this animation to infinite iteration */
+@keyframes Hide {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+/* Background color change animation */
+@keyframes background-color-change {
+    0% {
+        background-color: yellow;
+    }
+
+    25% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: rgb(236, 67, 67);
+    }
+
+    75% {
+        background-color: rgb(88, 197, 216);
+    }
+
+    100% {
+        background-color: blueviolet;
+    }
+}
+
+@keyframes samebg {
+    0% {
+        background: linear-gradient(#fa17d4, #d427b8);
+    }
+
+    100% {
+        background: linear-gradient(#fa17d4, #d427b8);
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        transform: translateX(-286px);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes slide32 {
+    0% {
+        transform: translateX(391px);
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+/* Outro annimation */
+
+@keyframes outro1 {
+    0% {
+        transform-origin: left bottom;
+        opacity: 100%;
+        scale: 1
+    }
+
+    50% {
+        opacity: 40%;
+    }
+
+    100% {
+        transform: rotate(-60deg);
+        scale: .30;
+        opacity: 3%;
+    }
+}
+
+@keyframes outro2 {
+    0% {
+        transform-origin: bottom right;
+        opacity: 100%;
+        scale: 1
+    }
+
+    50% {
+        opacity: 40%;
+    }
+
+    100% {
+        transform: rotate(60deg);
+        scale: .3;
+        opacity: 3%;
+    }
+
+}
+
+/* Slide 3 animations */
+
+@keyframes colorchangebg {
+    100% {
+        background-color: black;
+    }
+}
+
+@keyframes gif {
+    0% {
+        visibility: visible;
+        transform: scale(0);
+        opacity: 0%;
+    }
+
+    100% {
+        visibility: visible;
+        transform: scale(1);
+        opacity: 100%;
+    }
+
+}
+
+@keyframes rotate {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: rotate(90deg);
+        visibility: visible;
+    }
+}
+
+@keyframes Fadeout {
+    99.99% {
+        display: inline;
+    }
+
+    100% {
+        opacity: 0;
+        scale: 0;
+        display: none;
+    }
+}
+
+@keyframes last {
+    0% {
+        height: 4px;
+        width: 0px;
+        display: inline;
+    }
+
+    25% {
+        width: 100%;
+        height: 4px;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+        display: inline;
+    }
+}
+
+@keyframes white-box {
+    0% {
+        height: 100vh;
+        width: 0%;
+    }
+
+    100% {
+        height: 100vh;
+        width: 100%;
+    }
+
+}
+
+@keyframes balloon1 {
+    100% {
+        transform: translateX(-2vh) rotate(90deg);
+    }
+}
+
+@keyframes balloon2 {
+    100% {
+        transform: translateY(81vh) rotate(90deg);
+    }
+}
+
+@keyframes dropUp {
+    0% {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+
+    60% {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+
+    80% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: visible;
+        transform: rotate(45deg);
+    }
+}
+
+@keyframes bgchanger {
+    100% {
+        background: rgb(235, 222, 197);
+    }
+}
